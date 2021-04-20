@@ -1,0 +1,254 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+
+
+}
+
+.fix {
+	overflow:hidden;
+}
+
+
+.container{
+
+}
+/* header start*/
+.header{
+	height:200px;
+	width:100%;
+    background-color:green;
+}
+.logo{
+	float:left;
+	width:20%;
+	height:200px;
+
+}
+.logo img {
+	margin: 38px 42px;
+}
+.benar{
+	float:left;
+	width:60%;
+	height:200px;
+	text-align:center;
+}
+.benar h1 {
+	color:white;
+	margin-top: 33px;
+}
+.benar h2 {
+	color:white;
+	margin-top: 15px;
+}
+.contact{
+	float:left;
+	width:20%;
+	height:200px;
+
+}
+
+
+.search-button {
+	height: 100px;
+
+}
+.Search {
+	margin-top: 23px;
+	padding: 12px 30px;
+	border-radius: 7px;
+	border: 1px solid black;
+	opacity: 0.8;
+}
+.Submit {
+	padding: 12px 11px;
+	border-radius: 6px;
+	color: white;
+	background: black;
+	border: 0px;
+	cursor: pointer;
+	opacity: 0.7;
+	
+}
+.Submit:hover{
+transition:0.5s;
+background-color:#14A4DD;
+}
+.social-icon{
+	height:100px;
+	
+}
+.social-icon h3 {
+	float: left;
+	margin-top: 11px;
+	color: bisque;
+	opacity: 0.8;
+	font-family: arial;
+	padding: 3px;
+}
+.fab.fa-facebook {
+	padding: 5px;
+	color: #002775;
+	transition:.5s;
+	cursor:pointer;
+	
+}
+.fab.fa-facebook:hover{
+	transform:rotate(90deg);
+}
+.fab.fa-instagram-square {
+	padding: 5px;
+	color:#C5007C;
+	transition:.5s;
+	cursor:pointer;
+}
+.fab.fa-instagram-square:hover {
+	transform: rotate(90deg);
+	transition: 0.5s;
+}
+.fab.fa-twitter {
+	padding: 5px;
+	color:#31C7F6;
+	transition:.5s;
+	cursor:pointer;
+}
+.fab.fa-twitter:hover{
+	transform:rotate(90deg);
+}
+/*header end*/
+/*menu Start*/
+.menu{
+	background-color:#555555;
+	height:64px;
+}
+.menu ul{
+	list-style:none;
+}
+.menu ul li{
+	float:left;
+	border-right: 1px solid aliceblue;
+	
+}
+.menu ul li a {
+	text-decoration: none;
+	display: inline-block;
+	padding: 23px 109px;
+	transition: .5s;
+	color:white;
+}
+.menu ul li:last-child {
+	border-right:none;
+}
+.menu ul li a:hover{
+	background-color:black;
+
+}
+/*menu end*/
+.contant{}
+.left-side {
+	width: 19%;
+	float:left;
+	
+}
+.left-side ul{
+	list-style:none;
+	
+}
+.left-side ul li{}
+.left-side ul li a {
+	text-decoration: none;
+	padding: 19px 76px;
+	background-color: black;
+	display: block;
+	border: 1px solid;
+	transition:.3s;
+	
+}
+.left-side ul li a:hover {
+	background-color: coral;
+	color: white;
+	
+}
+
+.main-contant {
+	width: 81%;
+	float: left;
+}
+.caption {
+	height: 47px;
+	padding: 16px;
+	background-color: #00B8F4;
+	margin-top: 5px;
+	margin-left: 2px;
+}
+.caption h1 {
+	font-family: 'Ubuntu', sans-serif;
+
+	}
+.caption h1 a{ 
+	text-decoration:none;
+	color:black;
+	}
+.caption h1 a:active{
+	color:black;
+}
+img {
+	margin-top: 12px;
+}
+.sir{
+	text-align:center;
+	font-size:11px;
+	font-family: 'Oswald', sans-serif;
+	
+}
+
+.about{
+	font-family: 'Oswald', sans-serif;
+}
+i {
+	font-size: 39px;
+	margin-right: 9px;
+	float:left;
+}
+
+.gellary{
+	width:100%;
+	height:300px;
+	margin:5px;
+	text-align:center;
+	cursor:pointer;
+	
+}
+.mamun {
+	width: 25%;
+	float: left;
+	height: 340px;
+
+}
+
+.Afroza {
+	width: 25%;
+	float: left;
+	height: 340px;
+}
+
+.Mahabub {
+	width: 25%;
+	float: left;
+	height: 340px;
+
+}	
+.Dk_sir {
+	width: 25%;
+	float: left;
+	height: 340px;
+
+}
+.Dec{
+	text-align:center;
+	font-family: 'Ubuntu', sans-serif;
+}
+.footer{}
